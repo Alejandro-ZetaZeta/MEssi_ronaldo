@@ -15,8 +15,8 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="31dp">
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,68 +29,119 @@
     </LinearLayout>
 
     <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="603dp"
+        android:layout_width="409dp"
+        android:layout_height="484dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="1dp">
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="15dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="30dp"
             android:gravity="center">
 
             <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:id="@+id/button"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/Calcuperimetro" />
 
             <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:layout_width="183dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
-                android:text="@string/Calcuperimetro" />
+                android:layout_marginEnd="30dp"
+                android:text="Conversor de temperatura" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="wrap_content"
+                android:layout_width="95dp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="Tabla de Multiplicar" />
 
             <Button
-                android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                android:id="@+id/button7"
+                android:layout_width="148dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="30dp"
+                android:text="Calculador IMC" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="131dp">
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:text="Numeros Primos" />
 
             <Button
                 android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_width="181dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="30dp"
+                android:text="Adivina el Numero " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="212dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="45dp"
+                    android:layout_weight="1"
+                    android:text="Interés Compuesto" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="Conversión de Monedas" />
+
         </TableRow>
     </TableLayout>
 
