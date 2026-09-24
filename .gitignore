@@ -1,0 +1,43 @@
+# Gradle & Build output
+.gradle/
+.kotlin/
+build/
+**/build/
+/captures/
+
+# Local configuration (contiene la ruta local del SDK)
+local.properties
+
+# Android Studio / IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# C/C++ & NDK outputs
+.externalNativeBuild/
+.cxx/
+/obj/
+
+# Artifacts & Compiled binaries
+*.apk
+*.aar
+*.aab
+*.dex
+*.class
+
+# Signing keys & keystores
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

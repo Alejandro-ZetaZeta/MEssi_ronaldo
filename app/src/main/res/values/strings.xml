@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Interfaz_to_microservicios</string>
+    <string name="menu_microservicios">Menu de Microservicios</string>
+    <string name="Calcuperimetro">Areas y Perimetros</string>
+
+    <string name="titulo_area_perimetro">Calculadora de Área y Perímetro</string>
+    <string name="selecciona_figura">1. Selecciona la figura geométrica:</string>
+    <string name="figura_circulo">Círculo</string>
+    <string name="figura_rectangulo">Rectángulo</string>
+    <string name="figura_triangulo">Triángulo</string>
+    <string name="selecciona_operacion">2. Selecciona qué calcular:</string>
+    <string name="op_area">Área</string>
+    <string name="op_perimetro">Perímetro</string>
+    <string name="ingresa_medidas">3. Ingresa las medidas:</string>
+    <string name="hint_radio">Radio (r)</string>
+    <string name="hint_base">Base (b)</string>
+    <string name="hint_altura">Altura (h)</string>
+    <string name="hint_lado3">Lado C</string>
+    <string name="hint_lado_a">Lado A (a)</string>
+    <string name="hint_lado_b">Lado B (b)</string>
+    <string name="hint_lado_c">Lado C (c)</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="label_resultado">Resultado: %s</string>
+    <string name="label_resultado_inicial">Resultado: </string>
+    <string name="btn_volver">Volver al Menú</string>
+</resources>
