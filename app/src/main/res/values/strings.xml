@@ -23,4 +23,44 @@
     <string name="label_resultado">Resultado: %s</string>
     <string name="label_resultado_inicial">Resultado: </string>
     <string name="btn_volver">Volver al Menú</string>
+
+    <!-- Conversor de Temperatura -->
+    <string name="titulo_temperatura">Conversor de Temperatura</string>
+    <string name="hint_temperatura">Temperatura a convertir</string>
+    <string name="selecciona_conversion">Selecciona el tipo de conversión:</string>
+
+    <!-- Tabla de Multiplicar -->
+    <string name="titulo_tabla_multiplicar">Tabla de Multiplicar</string>
+    <string name="hint_numero_multiplicar">Ingresa un número (ej. 7)</string>
+    <string name="btn_generar_tabla">Generar Tabla</string>
+
+    <!-- Calculadora de IMC -->
+    <string name="titulo_imc">Calculadora de IMC</string>
+    <string name="hint_peso">Peso en kilogramos (kg)</string>
+    <string name="hint_altura_imc">Altura en metros (ej. 1.75)</string>
+
+    <!-- Generador de Números Primos -->
+    <string name="titulo_primos">Generador de Números Primos</string>
+    <string name="hint_limite_primos">Límite superior (ej. 50)</string>
+    <string name="btn_generar_primos">Generar Números Primos</string>
+
+    <!-- Adivina el Número -->
+    <string name="titulo_adivina_numero">Adivina el Número (1 - 100)</string>
+    <string name="hint_intento_adivinar">Ingresa tu número (1 a 100)</string>
+    <string name="btn_adivinar">Intentar Adivinar</string>
+    <string name="btn_reiniciar_juego">Nuevo Juego</string>
+
+    <!-- Calculadora de Interés Compuesto -->
+    <string name="titulo_interes_compuesto">Calculadora de Interés Compuesto</string>
+    <string name="hint_capital">Capital inicial ($ USD)</string>
+    <string name="hint_tasa_interes">Tasa de interés anual (%)</string>
+    <string name="hint_tiempo_anos">Tiempo (en años)</string>
+    <string name="selecciona_capitalizacion">Tipo de Capitalización:</string>
+
+    <!-- Conversión de Monedas -->
+    <string name="titulo_conversion_monedas">Conversión de Monedas</string>
+    <string name="hint_monto_moneda">Monto a convertir</string>
+    <string name="label_moneda_origen">Moneda de origen:</string>
+    <string name="label_moneda_destino">Moneda de destino:</string>
+    <string name="btn_convertir">Convertir</string>
 </resources>

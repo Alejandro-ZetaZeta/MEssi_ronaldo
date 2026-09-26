@@ -19,10 +19,44 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnAreasPerimetros = findViewById<Button>(R.id.button)
-        btnAreasPerimetros.setOnClickListener {
-            val intent = Intent(this, AreaPerimetroActivity::class.java)
-            startActivity(intent)
+        // 1. Áreas y Perímetros
+        findViewById<Button>(R.id.button).setOnClickListener {
+            startActivity(Intent(this, AreaPerimetroActivity::class.java))
+        }
+
+        // 2. Conversor de Temperatura
+        findViewById<Button>(R.id.button2).setOnClickListener {
+            startActivity(Intent(this, TemperaturaActivity::class.java))
+        }
+
+        // 3. Tabla de Multiplicar
+        findViewById<Button>(R.id.button3).setOnClickListener {
+            startActivity(Intent(this, TablaMultiplicarActivity::class.java))
+        }
+
+        // 4. Calculador IMC
+        findViewById<Button>(R.id.button7).setOnClickListener {
+            startActivity(Intent(this, ImcActivity::class.java))
+        }
+
+        // 5. Números Primos
+        findViewById<Button>(R.id.button5).setOnClickListener {
+            startActivity(Intent(this, NumerosPrimosActivity::class.java))
+        }
+
+        // 6. Adivina el Número
+        findViewById<Button>(R.id.button6).setOnClickListener {
+            startActivity(Intent(this, AdivinaNumeroActivity::class.java))
+        }
+
+        // 7. Conversión de Monedas
+        findViewById<Button>(R.id.button15).setOnClickListener {
+            startActivity(Intent(this, ConversionMonedasActivity::class.java))
+        }
+
+        // 8. Interés Compuesto
+        findViewById<Button>(R.id.button14).setOnClickListener {
+            startActivity(Intent(this, InteresCompuestoActivity::class.java))
         }
     }
 }

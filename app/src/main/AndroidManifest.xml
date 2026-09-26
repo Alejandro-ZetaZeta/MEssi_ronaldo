@@ -25,6 +25,34 @@
             android:name=".AreaPerimetroActivity"
             android:exported="false"
             android:label="Áreas y Perímetros" />
+        <activity
+            android:name=".TemperaturaActivity"
+            android:exported="false"
+            android:label="Conversor de Temperatura" />
+        <activity
+            android:name=".TablaMultiplicarActivity"
+            android:exported="false"
+            android:label="Tabla de Multiplicar" />
+        <activity
+            android:name=".ImcActivity"
+            android:exported="false"
+            android:label="Calculadora de IMC" />
+        <activity
+            android:name=".NumerosPrimosActivity"
+            android:exported="false"
+            android:label="Números Primos" />
+        <activity
+            android:name=".AdivinaNumeroActivity"
+            android:exported="false"
+            android:label="Adivina el Número" />
+        <activity
+            android:name=".InteresCompuestoActivity"
+            android:exported="false"
+            android:label="Interés Compuesto" />
+        <activity
+            android:name=".ConversionMonedasActivity"
+            android:exported="false"
+            android:label="Conversión de Monedas" />
     </application>
 
 </manifest>
