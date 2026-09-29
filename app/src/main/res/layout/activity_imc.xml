@@ -58,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:backgroundTint="#2C3FE6"
             android:text="@string/btn_calcular"
             android:textSize="18sp" />
 

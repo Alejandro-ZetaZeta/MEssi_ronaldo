@@ -76,6 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:backgroundTint="#009688"
             android:text="@string/btn_convertir"
             android:textSize="18sp" />
 

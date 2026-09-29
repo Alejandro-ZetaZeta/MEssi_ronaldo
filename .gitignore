@@ -13,7 +13,7 @@ local.properties
 *.iml
 *.iws
 *.ipr
-
+Informe_interfaz_to_Microservicios.docx
 # C/C++ & NDK outputs
 .externalNativeBuild/
 .cxx/
@@ -41,3 +41,15 @@ local.properties
 .Trashes
 ehthumbs.db
 Thumbs.db
+# Google Services & secrets
+google-services.json
+
+# Navigation & Layout editor caches
+.navigation/
+
+# Android Studio asset studio cache
+.asset-studio/
+
+# Version Catalog lockfiles / Lint baseline temp
+lint/
+lint-baseline.xml

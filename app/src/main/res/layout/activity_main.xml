@@ -49,6 +49,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
+                android:backgroundTint="#2C3FE6"
                 android:text="@string/Calcuperimetro" />
 
             <Button
@@ -56,6 +57,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
+                android:backgroundTint="#009688"
                 android:text="Conversor de temperatura" />
 
         </TableRow>
@@ -71,6 +73,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
+                android:backgroundTint="#009688"
                 android:text="Tabla de Multiplicar" />
 
             <Button
@@ -78,6 +81,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
+                android:backgroundTint="#2C3FE6"
                 android:text="Calculador IMC" />
 
         </TableRow>
@@ -93,6 +97,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
+                android:backgroundTint="#2C3FE6"
                 android:text="Numeros Primos" />
 
             <Button
@@ -100,6 +105,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
+                android:backgroundTint="#009688"
                 android:text="Adivina el Numero " />
 
         </TableRow>
@@ -115,6 +121,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="20dp"
+                android:backgroundTint="#009688"
                 android:text="Conversión de Monedas" />
 
             <Button
@@ -122,6 +129,7 @@
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="20dp"
+                android:backgroundTint="#2C3FE6"
                 android:text="Interés Compuesto" />
 
         </TableRow>
